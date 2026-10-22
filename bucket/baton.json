@@ -1,0 +1,33 @@
+{
+    "version": "1.3.3",
+    "description": "A fast segmented download manager for Windows, with browser extensions for Chromium and Firefox (portable version).",
+    "homepage": "https://github.com/AndreaAzzarello/baton",
+    "license": "MIT",
+    "notes": [
+        "Data (downloads list, settings) is kept in $persist_dir\\Data.",
+        "The browser extension is included: allow the browser registration when Baton asks, then load the \"extension\" subfolder of \"scoop prefix baton\" (Load unpacked; that path follows updates) or baton-firefox.xpi next to it; see the README."
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/AndreaAzzarello/baton/releases/download/v1.3.3/Baton-1.3.3-portable.zip",
+            "hash": "94c4bfd6e42bae74b8089a82137f8d9627487936cf7f7cff16ef4cd562c8c56e"
+        }
+    },
+    "shortcuts": [
+        [
+            "Baton.exe",
+            "Baton"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "github": "https://github.com/AndreaAzzarello/baton"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/AndreaAzzarello/baton/releases/download/v$version/Baton-$version-portable.zip"
+            }
+        }
+    }
+}
