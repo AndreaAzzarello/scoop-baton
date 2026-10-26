@@ -1,5 +1,5 @@
 {
-    "version": "1.3.3",
+    "version": "1.3.5",
     "description": "A fast segmented download manager for Windows, with browser extensions for Chromium and Firefox (portable version).",
     "homepage": "https://github.com/AndreaAzzarello/baton",
     "license": "MIT",
@@ -9,8 +9,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AndreaAzzarello/baton/releases/download/v1.3.3/Baton-1.3.3-portable.zip",
-            "hash": "94c4bfd6e42bae74b8089a82137f8d9627487936cf7f7cff16ef4cd562c8c56e"
+            "url": "https://github.com/AndreaAzzarello/baton/releases/download/v1.3.5/Baton-1.3.5-portable.zip",
+            "hash": "4ae0c26e73262a8ad008cc2333d5dfaf33f6bfb80f8735fc53631f2a9a032ea3"
         }
     },
     "shortcuts": [
